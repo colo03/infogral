@@ -1,0 +1,61 @@
+<!--
+Se le compartio la carpeta del proyecto a una IA para que genere el código de la nueva página discografia.html, utilizando como referencia los archivos index.html, bio.html y shows.html ya existentes. 
+Prompt utilizado:
+"Pedirle a una IA que genere una nueva página HTML llamada discografia.html
+Siguiendo la logica de los archivos ya creados. La página debe incluir un menú con links a las otras páginas,
+usar la misma hoja de estilos CSS"
+
+Lógica del uso de la IA:
+La IA se utilizó como asistente para generar la estructura inicial del
+documento HTML y organizar la información de la discografía del artista.
+Luego el código fue revisado y adaptado para que utilice únicamente las
+etiquetas y conceptos vistos en clase (links, listas, imágenes y rutas
+relativas) y pueda integrarse correctamente con el resto del sitio.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Discografía</title>
+
+<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<h1>Discografía</h1>
+
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="bio.html">Biografía</a></li>
+<li><a href="shows.html">Shows</a></li>
+<li><a href="discografia.html">Discografía</a></li>
+</ul>
+
+<h2>Álbumes</h2>
+
+<p>Algunos de los álbumes más conocidos del artista:</p>
+<!--La IA creo archivos de imagen que no existen, los dejo en el codigo para que se pueda ver lo que hizo, pero no las sumo, dejo solamente el ALT-->
+<ul>
+<li>
+<p>Tiempo de Vals (1990)</p>
+<img src="img/album1.jpg" alt="Portada del álbum Tiempo de Vals" width="300">
+</li>
+
+<li>
+<p>Atado a Tu Amor (1998)</p>
+<img src="img/album2.jpg" alt="Portada del álbum Atado a Tu Amor" width="300">
+</li>
+
+<li>
+<p>Sincero (2003)</p>
+<img src="img/album3.jpg" alt="Portada del álbum Sincero" width="300">
+</li>
+
+</ul>
+
+</body>
+</html>
